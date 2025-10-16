@@ -1,11 +1,11 @@
 import java.time.LocalDate;
 
 public class Prodejce {
-    String jmeno;
-    LocalDate datumNarozeni;
-    Integer sjednaneSmlouvy;
-    double prodaneMnozstvi;
-    Boolean senior;
+    private String jmeno;
+    private LocalDate datumNarozeni;
+    private Integer sjednaneSmlouvy;
+    private double prodaneMnozstvi;
+    private Boolean senior;
 
     public String getJmeno() {
         return jmeno;
